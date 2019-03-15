@@ -1,37 +1,35 @@
-ember-prop-modifier
-==============================================================================
+# ember-prop-modifier
 
-[Short description of the addon.]
+This addon provides a `{{prop}}` modifier which can be used to set properties
+directly on the element it is applied to:
 
+```js
+import Component from '@glimmer/component';
 
-Compatibility
-------------------------------------------------------------------------------
+export default class MyVideo extends Component {
+  mediaSource = new MediaSource();
+}
+```
 
-* Ember.js v2.18 or above
-* Ember CLI v2.13 or above
+```hbs
+<video {{prop srcObject=this.mediaSource}}/>
+```
 
+## Compatibility
 
-Installation
-------------------------------------------------------------------------------
+- Ember.js v2.12 or above
+- Ember CLI v3.0 or above
+
+## Installation
 
 ```
 ember install ember-prop-modifier
 ```
 
-
-Usage
-------------------------------------------------------------------------------
-
-[Longer description of how to use the addon in apps.]
-
-
-Contributing
-------------------------------------------------------------------------------
+## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
 
-
-License
-------------------------------------------------------------------------------
+## License
 
 This project is licensed under the [MIT License](LICENSE.md).

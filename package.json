@@ -1,7 +1,7 @@
 {
   "name": "ember-prop-modifier",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "A super simple prop setting modifier!",
   "keywords": [
     "ember-addon"
   ],
