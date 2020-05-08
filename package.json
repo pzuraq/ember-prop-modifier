@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^7.1.2",
-    "ember-functional-modifiers": "^0.2.0"
+    "ember-modifier": "^1.0.1"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.6.3",
@@ -51,7 +51,7 @@
     "qunit-dom": "^0.8.0"
   },
   "engines": {
-    "node": "6.* || 8.* || >= 10.*"
+    "node": "8.* || >= 10.*"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
