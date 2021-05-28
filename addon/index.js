@@ -1,2 +1,1 @@
-import prop from './modifiers/prop';
-export default prop;
+export { default } from './modifiers/prop';
