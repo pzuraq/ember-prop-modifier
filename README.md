@@ -17,8 +17,9 @@ export default class MyVideo extends Component {
 
 ## Compatibility
 
-- Ember.js v2.12 or above
-- Ember CLI v3.0 or above
+* Ember.js v3.24 or above
+* Ember CLI v3.24 or above
+* Node.js v12 or above
 
 ## Installation
 
