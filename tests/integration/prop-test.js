@@ -3,10 +3,10 @@ import { setupRenderingTest } from 'ember-qunit';
 import { click, render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
 
-module('Integration | Helper | prop', function(hooks) {
+module('Integration | Helper | prop', function (hooks) {
   setupRenderingTest(hooks);
 
-  test('it works', async function(assert) {
+  test('it works', async function (assert) {
     assert.expect(1);
 
     this.handleClick = () => {
@@ -17,13 +17,13 @@ module('Integration | Helper | prop', function(hooks) {
     await click('button');
   });
 
-  test('it updates', async function(assert) {
+  test('it updates', async function (assert) {
     assert.expect(2);
 
     let count = 0;
 
     this.handleClick = () => {
-      assert.equal(count, 0, 'button clicked!');
+      assert.strictEqual(count, 0, 'button clicked!');
       count++;
     };
 
@@ -31,7 +31,7 @@ module('Integration | Helper | prop', function(hooks) {
     await click('button');
 
     this.set('handleClick', () => {
-      assert.equal(count, 1, 'function updated properly');
+      assert.strictEqual(count, 1, 'function updated properly');
     });
 
     await click('button');
