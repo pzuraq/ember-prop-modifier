@@ -15,10 +15,13 @@ export default class MyVideo extends Component {
 <video {{prop srcObject=this.mediaSource}}/>
 ```
 
+
 ## Compatibility
 
-- Ember.js v2.12 or above
-- Ember CLI v3.0 or above
+* Ember.js v3.28 or above
+* Ember CLI v3.28 or above
+* Node.js v14 or above
+
 
 ## Installation
 
@@ -26,9 +29,11 @@ export default class MyVideo extends Component {
 ember install ember-prop-modifier
 ```
 
+
 ## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
+
 
 ## License
 
