@@ -1,3 +1,16 @@
+
+## v${version} (2023-03-29)
+
+#### :boom: Breaking Change
+* [#8](https://github.com/pzuraq/ember-prop-modifier/pull/8) Ember 4 Upgrade ([@elwayman02](https://github.com/elwayman02))
+
+#### :house: Internal
+* [#8](https://github.com/pzuraq/ember-prop-modifier/pull/8) Ember 4 Upgrade ([@elwayman02](https://github.com/elwayman02))
+
+#### Committers: 1
+- Jordan Hawker ([@elwayman02](https://github.com/elwayman02))
+
+
 ## v1.0.1 (2021-05-28)
 
 #### :bug: Bug Fix
